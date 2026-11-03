@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import Header from './Header.jsx';
 import { Hero, InfoStrip, Ticker, Welcome, Way, Moments, CtaBand, Visit, Footer } from './Sections.jsx';
 
@@ -41,6 +42,7 @@ export default function App() {
         <Visit />
       </main>
       <Footer />
+      <Analytics />
     </>
   );
 }
